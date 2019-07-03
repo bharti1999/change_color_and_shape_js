@@ -1,0 +1,77 @@
+#circle{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	background-color: blue;
+	margin-top: 15vh;
+	margin-left: 45vw;
+	position: relative;
+}
+/*#square{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	margin-top: 47px;
+	margin-left: 48px;
+	background-color: white;
+}*/
+button{
+	margin: 5vh;
+	margin-left: 43vw;
+	padding: 1vh;
+	font-size: 18px;
+	width: 19vw;
+	font-family: monospace;
+}
+#button-1{
+	margin-top: 9vh;
+	margin-bottom: 0px;
+}
+
+#arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent; 
+  border-bottom: 60px solid white;
+  position: absolute;
+  left: 20%;
+  top: 51%;
+  visibility: visible;
+}
+
+#arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid white;
+   position: absolute;
+  left: 20%;
+  top: 21%;
+  visibility: visible;
+}
+
+#arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid white;
+  position: absolute;
+  left: 20%;
+  top: 21%;
+  visibility: visible;
+}
+
+#arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent; 
+  border-right:60px solid white; 
+   position: absolute;
+  left: 50%;
+  top: 21%;
+  visibility: visible;
+}
